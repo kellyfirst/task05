@@ -1,0 +1,177 @@
+*{
+    margin:0;
+    padding:0;
+}
+.nav,.bottom{
+    height: 60px;
+    background-color: #000;
+}
+.box1{
+    width: 1430px;
+    height: 60px;
+    margin:0 auto;
+}
+.box1 img{
+
+    height: 60px;
+    padding-left:10px;
+}
+.box1 ul{
+    width: 372px;
+    height: 60px;
+    float:right;
+}
+.box1 li{
+    display:inline-block;
+    padding-left:10px;
+}
+.box1 li a{
+    text-decoration:none;
+    color:#fff;
+    font:16px/60px "microsoft yahei";
+}
+.box1 li a:hover{
+    color: red;
+}
+#main{
+    width:auto;
+    background: #DEDEDE;
+  padding:1px;
+    overflow:hidden;
+    position:relative;
+}
+.article{
+    width:854px;
+    height: auto;
+    background: #fff;
+    border:1px solid #CDCDCD;
+    box-shadow:3px 3px 3px #444444;
+    margin:20px;
+    padding:20px;
+    float:left;
+}
+.article h2{
+    font:600 20px "microsoft yahei";
+    padding:10px 0 10px;
+}
+.article h3{
+    font:15px "microsoft yahei";
+    padding:10px 0 10px;
+    color:#505163;
+}
+.article span{
+    font:12px "microsoft yahei";
+    color:#716D6E;
+}
+.article .text{
+    text-indent:30px;
+    font:15px/30px "microsoft yahei";
+}
+.article .picture{
+    width: 130px;
+    height:130px;
+    border:1px solid #ccc;
+    text-align:center;
+    margin:10px;
+    float:left;
+}
+.article ol{
+    padding:20px;
+}
+.article table{
+    border:1px solid #ccc;
+    border-spacing:0;
+    width:100%;
+    height: 150px;
+
+}
+
+.article table th{
+    text-align:left;
+    border:1px solid #ccc;
+    background-color: #323232;
+    color:#fff;
+    padding-left:5px;
+}
+.article table td{
+    padding-left:5px;
+    border:1px solid #ccc;
+    font:700 12px "microsoft yahei";
+    color:#000112;
+}
+.article table tfoot{
+    background-color: #ccc;
+}
+
+.sidebar{
+    width: 365px;
+    height:auto;
+    background: #fff;
+    border:1px solid #CDCDCD;
+    box-shadow:3px 3px 3px #444444;
+    margin:20px;
+    float:right;
+    padding:20px;
+    position:absolute;
+    top:0px;
+    right:0px;
+
+}
+.sidebar h2{
+
+    height: 38px;
+    width: 318px;
+    padding-left:10px;
+    border-left:3px solid #ccc;
+    font: 700 16px/38px "microsoft yahei";
+}
+.sidebar form label{
+    width:40%;
+    display:inline-block;
+    text-align:right;
+    margin-right:10px;
+    /*vertical-align:top;*/
+    /*!*width: 40%;*!*/
+    /*text-align: right;*/
+    /*display:inline-block;*/
+    /*margin-right: 20px;*/
+    /*margin-top: 10px;*/
+    /*vertical-align: top;*/
+    /*margin-bottom: 0px;*/
+}
+.sidebar .des{
+    vertical-align:top;
+}
+.sidebar form .inpt{
+    width: 50%;
+    height:30px;
+
+    border:1px solid #ccc;
+}
+form input,select,textarea{
+    margin-bottom:10px;
+}
+form p{
+    font:12px "microsoft yahei";
+    color:#ccc;
+    margin-left:171px;
+}
+ textarea {
+     margin-top:0px;
+     width: 50%;
+     height: 100px;
+     margin-left: 0px;
+}
+.sidebar form .submit{
+    width:84%;
+    height: 40px;
+    background-color: #3355D0;
+    color:#fff;
+    margin-left:41px;
+    border-radius:1em;
+    box-shadow:2px 2px 2px #E9E9E9;
+}
+.bottom{
+    position:absolute;
+    bottom:0;
+}
